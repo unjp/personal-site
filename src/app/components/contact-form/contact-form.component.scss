@@ -1,0 +1,45 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+    align-items: center;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 300px;
+    padding: 4px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    padding: 8px;
+    width: 75px;
+    background-color: #546cba;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: white;
+    color: #546cba;
+    border: 1px solid #546cba;
+    transition: 0.2s;
+}
