@@ -31,7 +31,7 @@ textarea {
 button {
     padding: 8px;
     width: 75px;
-    background-color: #546cba;
+    background-color: forestgreen;
     color: white;
     border: none;
     cursor: pointer;
@@ -39,7 +39,7 @@ button {
 
 button:hover {
     background-color: white;
-    color: #546cba;
-    border: 1px solid #546cba;
+    color: forestgreen;
+    border: 1px solid forestgreen;
     transition: 0.2s;
 }
